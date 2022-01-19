@@ -1,22 +1,55 @@
 /* entire body css */
 .section {
+  padding: 10px;
+}
+/* general */
+.btn-home {
+  background-color: #a22c29;
+  color:#dadada;
+  border: 1px solid #a22c29;
   padding:10px;
+}
+.btn-home:hover {
+  background-color: #a22c29;
+  color:#dadada;
+  border: 1px solid #a22c29;
+  transform: scale(1.1);
+}
+.btn-home:active, .btn-home:focus {
+  background-color: #a22c29;
+  color:#dadada;
+  border: 1px solid #a22c29;
+  box-shadow: none;
+
 }
 /* home page */
 .homePageContent {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
-.profilePhoto > img {
-  height:30em;
+.homeTextContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.homeTextContent > h1, .homeTextContent > p {
+  color:#dadada;
+}
+
+.profilePhoto>img {
+  height: 30em;
   width: auto;
 }
-.aboutUsPhoto > img {
-  height:30em;
+
+.aboutUsPhoto>img {
+  height: 30em;
   width: auto;
 }
+
 /* about me page */
 .aboutUsContent {
   display: flex;
@@ -25,29 +58,26 @@
 }
 
 /* skills visual chart */
-.skillsVis{
+.skillsVis {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+
 .skillsChart {
-  height:30em;
+  height: 30em;
   width: 30em;
 }
+
 /* projects */
 .card {
   margin-left: 20%;
   margin-right: 20%;
   background-color: #dadada;
 }
+
 /* contact */
 
-.contactForm{
+.contactForm {
   margin: 20px;
 }
-
-
-
-
-
-
