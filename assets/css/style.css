@@ -3,19 +3,19 @@
   padding: 10px;
 }
 /* general */
-.btn-home {
+.btn-red {
   background-color: #a22c29;
   color:#dadada;
   border: 1px solid #a22c29;
   padding:10px;
 }
-.btn-home:hover {
+.btn-red:hover {
   background-color: #a22c29;
   color:#dadada;
   border: 1px solid #a22c29;
   transform: scale(1.1);
 }
-.btn-home:active, .btn-home:focus {
+.btn-red:active, .btn-red:focus {
   background-color: #a22c29;
   color:#dadada;
   border: 1px solid #a22c29;
@@ -45,16 +45,25 @@
   width: auto;
 }
 
+
+
+/* about me page */
+
+.aboutUsContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 .aboutUsPhoto>img {
   height: 30em;
   width: auto;
 }
-
-/* about me page */
-.aboutUsContent {
+.aboutUsTextContent {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 /* skills visual chart */
