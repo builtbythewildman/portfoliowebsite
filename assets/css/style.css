@@ -20,8 +20,27 @@
   color:#dadada;
   border: 1px solid #a22c29;
   box-shadow: none;
-
 }
+.btn-white {
+  margin-top: 5px;
+  background-color: #d6d5c9;
+  color:#394648;
+  border: 1px solid #d6d5c9;
+  padding:10px;
+}
+.btn-white:hover {
+  background-color: #d6d5c9;
+  color:#394648;
+  border: 1px solid #d6d5c9;
+  transform: scale(1.1);
+}
+.btn-white:active, .btn-white:focus {
+  background-color: #d6d5c9;
+  color:#394648;
+  border: 1px solid #d6d5c9;
+  box-shadow: none;
+}
+
 /* home page */
 .homePageContent {
   display: flex;
@@ -104,5 +123,19 @@ canvas#myChart {
 /* contact */
 
 .contactForm {
-  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.submitBtnDiv{
+  display: flex;
+  justify-content: flex-end;
+  color:black;
+}
+.contactFormPhoto > img {
+  height: 25em;
+  width: auto;
+}
+.contactFormContainer {
+  max-width: 50%;
 }

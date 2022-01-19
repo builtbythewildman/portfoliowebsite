@@ -48,7 +48,7 @@
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
             industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
             scrambled it to make a type specimen book. It has survived not only five centuries</p>
-            <a class="btn btn-primary btn-red" href="#projects">See my Projects</a>
+          <a class="btn btn-primary btn-red" href="#projects">See my Projects</a>
         </div>
         <div class="skillsChart">
           <canvas id="myChart"></canvas>
@@ -73,8 +73,8 @@
             <div class="card-body">
               <h5 class="card-title">Project 1</h5>
               <p class="card-text">Project 1 description</p>
-              <a href="#" class="btn btn-primary">Demo</a>
-              <a href="#" class="btn btn-primary">Github Repo</a>
+              <a href="#" class="btn btn-primary btn-red">Demo</a>
+              <a href="#" class="btn btn-primary btn-red">Github Repo</a>
             </div>
           </div>
         </div>
@@ -85,8 +85,8 @@
             <div class="card-body">
               <h5 class="card-title">Project 2</h5>
               <p class="card-text">Project 2 description</p>
-              <a href="#" class="btn btn-primary">Demo</a>
-              <a href="#" class="btn btn-primary">Github Repo</a>
+              <a href="#" class="btn btn-primary btn-red">Demo</a>
+              <a href="#" class="btn btn-primary btn-red">Github Repo</a>
             </div>
           </div>
         </div>
@@ -97,8 +97,8 @@
             <div class="card-body">
               <h5 class="card-title">Project 3</h5>
               <p class="card-text">Project 3 description</p>
-              <a href="#" class="btn btn-primary">Demo</a>
-              <a href="#" class="btn btn-primary">Github Repo</a>
+              <a href="#" class="btn btn-primary btn-red">Demo</a>
+              <a href="#" class="btn btn-primary btn-red">Github Repo</a>
             </div>
           </div>
         </div>
@@ -107,7 +107,10 @@
 
     <div class="section">
       <div class="contactForm">
-        <div class="container">
+        <div class="contactFormPhoto">
+          <img src="/assets/imgs/contact.gif" alt="profile photo">
+        </div>
+        <div class="container contactFormContainer">
           <h2>Contact Me!</h2>
           <form target="_blank" action="https://formsubmit.co/your@email.com" method="POST">
             <div class="form-group">
@@ -123,7 +126,9 @@
             <div class="form-group">
               <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
             </div>
-            <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+            <div class="submitBtnDiv">
+              <button type="submit" class="btn btn-primary btn-white">Send</button>
+            </div>
           </form>
         </div>
       </div>
