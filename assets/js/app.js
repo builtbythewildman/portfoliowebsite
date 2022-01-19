@@ -35,6 +35,7 @@ const labels = [
 	'Shopify Liquid',
 	'CSS',
 	'HTML',
+	
 ];
 
 const data = {
@@ -54,7 +55,7 @@ const data = {
 };
 
 const config = {
-  type: 'polarArea',
+  type: 'doughnut',
   data: data,
   options: {}
 };
