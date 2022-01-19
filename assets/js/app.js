@@ -4,10 +4,10 @@ new fullpage('#fullpage', {
 	licenseKey: null,
   menu: '#menu',
 	lockAnchors: false,
-	anchors:['home', 'aboutme','projects','contact'],
-	navigation: true,
+	anchors:['home', 'aboutme', 'skillsvisualisation','projects','contact'],
+	navigation: false,
 	navigationPosition: 'left',
-	navigationTooltips: ['HOME', 'ABOUT ME','PROJECTS','CONTACT'],
+	navigationTooltips: ['HOME', 'ABOUT ME','SKILLS VISUALISATION','PROJECTS','CONTACT'],
 	showActiveTooltip: false,
 	slidesNavigation: false,
 	slidesNavPosition: 'bottom',
@@ -20,7 +20,7 @@ new fullpage('#fullpage', {
   //options here
   autoScrolling: true,
   scrollHorizontally: true,
-  sectionsColor: ['#394648', '#B9BAA3', '#D6D5C9', '#A22C29'],
+  sectionsColor: ['#394648', '#B9BAA3', '#D6D5C9','#7D8CC4', '#A22C29'],
   lazyLoading: true,
 });
 //methods
@@ -63,5 +63,3 @@ const myChart = new Chart(
 	config
 );
 
-//init AOS 
-AOS.init();

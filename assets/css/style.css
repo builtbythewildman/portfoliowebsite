@@ -1,5 +1,53 @@
-.skillsVis {
-  height:50em;
-  width: 50em;
-  margin:0 auto
+/* entire body css */
+.section {
+  padding:10px;
 }
+/* home page */
+.homePageContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.profilePhoto > img {
+  height:30em;
+  width: auto;
+}
+.aboutUsPhoto > img {
+  height:30em;
+  width: auto;
+}
+/* about me page */
+.aboutUsContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* skills visual chart */
+.skillsVis{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.skillsChart {
+  height:30em;
+  width: 30em;
+}
+/* projects */
+.card {
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #dadada;
+}
+/* contact */
+
+.contactForm{
+  margin: 20px;
+}
+
+
+
+
+
+
