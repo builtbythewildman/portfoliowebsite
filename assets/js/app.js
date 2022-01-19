@@ -1,7 +1,7 @@
 //slider JS 
 new fullpage('#fullpage', {
   //menu
-	licenseKey: null,
+	licenseKey: "C968EB6E-AED24E76-86AFEC0E-A2147D73",
   menu: '#menu',
 	lockAnchors: false,
 	anchors:['home', 'aboutme', 'skillsvisualisation','projects','contact'],
