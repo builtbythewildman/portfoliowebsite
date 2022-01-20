@@ -198,8 +198,7 @@ canvas#myChart {
   }
 
   .aboutUsPhoto>img {
-    height: 15em;
-    width: auto;
+    display:none;
   }
 
   .aboutUsTextContent {
