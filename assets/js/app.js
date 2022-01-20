@@ -17,6 +17,11 @@ new fullpage('#fullpage', {
 	loopBottom: false,
 	loopTop: false,
   animateAnchor: true,
+	continuousHorizontal: false,
+	scrollHorizontally: true,
+	autoScrolling:true,
+	cards: true,
+
   //options here
   autoScrolling: true,
   scrollHorizontally: true,
