@@ -9,6 +9,7 @@
   color: #dadada;
   border: 1px solid #a22c29;
   padding: 10px;
+  margin: 2px;
 }
 
 .btn-red:hover {
@@ -85,7 +86,7 @@
 }
 
 .aboutUsPhoto>img {
-  height: 30em;
+  height: 25em;
   width: auto;
 }
 
@@ -118,6 +119,11 @@ canvas#myChart {
   height: 30em;
   width: auto;
 }
+
+.btn-skills {
+  margin-top: 20px;
+}
+
 
 /* projects */
 .projectTextContent {
@@ -160,7 +166,7 @@ canvas#myChart {
 }
 
 /* media queries */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 863px) {
 
   /* home page for mobile */
   .homePageContent {
@@ -168,6 +174,7 @@ canvas#myChart {
     flex-direction: column-reverse;
     align-items: center;
   }
+
   .homeTextContent {
     margin-top: 50px;
   }
@@ -182,6 +189,72 @@ canvas#myChart {
     width: auto;
     /* margin-top: -200px; */
   }
+
+  /* about us */
+  .aboutUsContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aboutUsPhoto>img {
+    height: 15em;
+    width: auto;
+  }
+
+  .aboutUsTextContent {
+    display: flex;
+    max-width: 80%;
+    max-height: fit-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .aboutUsTextContent>p.hideMobile {
+    display: none;
+  }
+
+  /* skills vis section */
+
+  .skillsVis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skillsTextContent {
+    display: flex;
+    max-width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  canvas#myChart {
+    height: 15em;
+    width: auto;
+  }
+
+  /* contact */
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contactFormContainer {
+    max-width: 80%;
+  }
+
+  .contactFormPhoto>img {
+    height: 10em;
+    width: auto;
+  }
 }
+
+/* ended here */
 
 /* ended here */
