@@ -164,6 +164,10 @@ canvas#myChart {
 .contactFormContainer {
   max-width: 50%;
 }
+.container.contactFormContainer > h2 {
+  text-align: center;
+  color: #dadada;
+}
 
 /* media queries */
 @media only screen and (max-width: 863px) {
