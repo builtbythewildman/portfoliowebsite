@@ -148,6 +148,7 @@ canvas#myChart {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  position: relative;
 }
 
 .submitBtnDiv {
@@ -164,20 +165,38 @@ canvas#myChart {
 .contactFormContainer {
   max-width: 50%;
 }
-.container.contactFormContainer > h2 {
+
+.container.contactFormContainer>h2 {
   text-align: center;
   color: #dadada;
 }
-.form-control:active,.form-control:focus {
+
+.form-control:active,
+.form-control:focus {
   background-color: #D6D5C9;
-  color:#000;
+  color: #000;
   box-shadow: none;
-  border-color:#ced4da;
+  border-color: #ced4da;
 
 }
+
 .form-control {
   background-color: #D6D5C9;
 }
+
+.reference-div {
+  position: absolute;
+  bottom: 22px;
+  left: 0;
+  height: 20px;
+  width: 100vw;
+}
+
+.reference-link, .reference-link:hover,.reference-link:visited {
+  color: #a52a28;
+  text-decoration: none;
+}
+
 
 /* media queries */
 @media only screen and (max-width: 863px) {
@@ -212,7 +231,7 @@ canvas#myChart {
   }
 
   .aboutUsPhoto>img {
-    display:none;
+    display: none;
   }
 
   .aboutUsTextContent {

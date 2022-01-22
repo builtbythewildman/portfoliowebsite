@@ -21,6 +21,7 @@ new fullpage('#fullpage', {
 	scrollHorizontally: true,
 	autoScrolling:true,
 	cards: true,
+  resetSliders:true,
 
   //options here
   autoScrolling: true,
@@ -68,4 +69,8 @@ const myChart = new Chart(
 	document.getElementById('myChart'),
 	config
 );
+
+// Custom JS
+
+
 
